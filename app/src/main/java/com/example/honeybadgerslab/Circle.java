@@ -3,8 +3,8 @@ package com.example.honeybadgerslab;
 public class Circle extends Shape {
     private double radius;
 
-    public Circle(int x, int y, double radius) {
-        super(x, y);
+    public Circle(int x, int y, String color, double radius) {
+        super(x, y, color);
         this.radius = radius;
     }
 
