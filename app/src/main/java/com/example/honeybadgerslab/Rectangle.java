@@ -1,15 +1,12 @@
 
 package com.example.honeybadgerslab;
-public class Rectangle2 extends Shape{
+public class Rectangle extends Shape{
 
     private int length;
     private int width;
 
-    public Rectangle2(int x, int y) {
+    public Rectangle(int x, int y, int length, int width) {
         super(x, y);
-    }
-
-    public void Rectangle2(int x, int y, int length, int width) {
         this.length = length;
         this.width = width;
     }
